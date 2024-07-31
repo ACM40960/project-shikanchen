@@ -1,2 +1,44 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/PwK3l629)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15157841&assignment_repo_type=AssignmentRepo)
+# Blackjack-Simulation
+
+This project is a comprehensive simulation of the game of Blackjack, designed to explore and optimize different strategies using Q-learning algorithms. It includes a detailed implementation of the game's rules as well as an AI that learns to play Blackjack through reinforcement learning techniques.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To set up the Blackjack simulation on your local machine, follow these steps:
+
+```bash
+git clone https://github.com/yourusername/blackjack-simulation.git
+cd Blackjack-Simulation
+conda env create -f environment.yml
+conda activate blackjack-env
+```
+
+## Project Structure
+
+```bash
+Blackjack-Simulation/
+│
+├── src/            # Source files for the project
+│   ├── main.py     # Entry point of the program
+│   ├── card.py     # Card class
+│   ├── deck.py     # Deck class
+│   ├── hand.py     # Hand class
+│   └── game.py     # Game logic
+│
+├── tests/          # Unit tests for the application
+│   ├── test_card.py
+│   ├── test_deck.py
+│   └── test_game.py
+│
+├── README.md       # Project overview and instructions
+├── .gitignore      # Specifies intentionally untracked files to ignore
+└── environment.yml # Conda environment file
+```
