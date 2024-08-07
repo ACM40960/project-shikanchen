@@ -2,6 +2,14 @@
 
 This project is a comprehensive simulation of the game of Blackjack, designed to explore and optimize different strategies using Q-learning algorithms. It includes a detailed implementation of the game's rules as well as an AI that learns to play Blackjack through reinforcement learning techniques.
 
+![Python Version](https://img.shields.io/badge/Python-3.9.19-blue.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8.4-blue.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.26.4-blue.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+![Environment](https://img.shields.io/badge/Environment-blackjack--env-brightgreen.svg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+
+
 ## Table of Contents
 
 - [Installation](#installation)
