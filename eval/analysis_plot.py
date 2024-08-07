@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from simulate import simulate_games
-from matplotlib.ticker import LogLocator, NullFormatter, FuncFormatter
 
 
 def plot_results(ep, wins, draws, losses):
