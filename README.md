@@ -16,6 +16,7 @@ This project is a comprehensive simulation of the game of Blackjack, designed to
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
+- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -146,3 +147,48 @@ To start a simulation, follow these steps:
        discount_factor=0.95,
        exploration_rate=0.1
    )
+
+## Results
+
+Our Blackjack Simulation utilizes AI to learn and optimize strategies over multiple episodes. Below, we present a series of results that illustrate the AI's learning progression and decision-making effectiveness over time. These insights are critical for understanding the impact of different training durations and settings on AI performance.
+
+### AI Performance Improvement Over Episodes
+
+This plot shows the AI's win rate and loss rate over a logarithmic scale of training episodes:
+
+![AI Performance Improvement Over Episodes](results/performance_plot.png)
+
+- **Observations**:
+  - The win rate stabilizes after around 10,000 episodes, indicating that additional training yields diminishing returns.
+  - Loss rates decrease initially but plateau, suggesting the AI reaches a strategy limitation under current configurations.
+
+### Detailed Game Outcomes
+
+We also analyze the game outcomes in terms of wins, losses, and draws. The following plots show these metrics after different simulation runs:
+
+#### Simulation Outcomes After no Episodes (Benchmark)
+
+![Blackjack Simulation Outcomes - 0 Episodes](results/wld_0.png)
+
+#### Simulation Outcomes After 100 Episodes
+
+![Blackjack Simulation Outcomes - 100 Episodes](results/wld_100.png)
+
+- The increase in the number of losses correlates with a more aggressive strategy adopted by the AI as it explores more state-action pairs.
+
+#### Simulation Outcomes After 10,000 Episodes
+
+![Blackjack Simulation Outcomes - 10,000 Episodes](results/wld_10000.png)
+
+- An increase in wins and a decrease in draws suggest an improvement in strategic decision-making by the AI.
+
+#### Simulation Outcomes After 1,000,000 Episodes
+
+![Blackjack Simulation Outcomes - 1,000,000 Episodes](results/wld_1000000.png)
+
+- The improvement of performance is limited over this stage, implying that the AI reaches a strategy limitation under current configurations.
+
+
+### Analysis and Discussion
+
+The collected data demonstrate that while the AI significantly improves with initial training, there's a plateau effect in performance improvement. This is aligned with the the expectation in Blackjack, which, even with perfect play, is often below 50% due to the house edge.
