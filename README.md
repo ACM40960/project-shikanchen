@@ -12,12 +12,41 @@ This project is a comprehensive simulation of the game of Blackjack, designed to
 
 ## Table of Contents
 
+- [Features](#features)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Features
+
+The Blackjack Simulation offers a comprehensive suite of features designed to simulate and analyze Blackjack strategies using advanced AI techniques. Here are some of the standout features of this project:
+
+### Comprehensive Game Rules Implementation
+- **Blackjack Rules**: The game accurately implements standard Blackjack rules including hitting, standing.
+- **Realistic Dealer Logic**: The dealer follows the standard casino protocol, such as hitting on 16 and standing on 17.
+
+### Advanced AI Gameplay
+- **Q-Learning AI**: Utilizes a Q-learning algorithm to learn optimal strategies over time.
+- **Pre-Trained Models**: Comes with models that have already been trained over thousands of game iterations, allowing for immediate deployment and testing of strategies.
+- **Custom AI Training**: Users can train their own models using customizable settings, such as learning rate and discount factor, to potentially discover new winning strategies.
+
+### User Interface
+- **Graphical User Interface**: An interactive GUI that allows users to play against the AI or watch the AI play, enhancing the understanding of different strategies.
+- **Command-Line Interface**: For those who prefer it, a CLI version is available, offering detailed logs of game progress and decisions.
+
+### Analytical Tools
+- **Performance Analysis**: Includes scripts for analyzing and visualizing the AI's decision-making process and performance, providing insights into how strategies develop over time.
+- **Win/Loss Metrics**: Tracks performance metrics such as win rate, loss rate, and draw rate across different simulation runs.
+
+### Extensibility and Customization
+- **Modular Design**: The software is designed with modularity in mind, allowing developers to easily extend or modify components such as the AI algorithms, game rules, or UI.
+- **Configuration Files**: Users can alter various aspects of the simulation through configuration files, making it flexible to different needs or experimental setups.
+
+### Documentation and Support
+- **Detailed Documentation**: Comprehensive documentation is provided to help users get started quickly and to understand the complex functionalities of the game.
+- **Community Support**: The project encourages all contributions from all commnuities.
 
 ## Installation
 
