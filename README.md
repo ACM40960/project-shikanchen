@@ -89,6 +89,11 @@ To start a simulation, follow these steps:
      - **Stand**: Click the `Hit` button to draw another card.
      - **Restart**: Resets the game to start a new round.
      - **AI Play**: Allows the AI to play the game automatically based on the trained model.
+
+   - **Demo**
+<div align="center">
+  <img src="static/demo.gif" alt="Blackjack Game Interface Demo">
+</div>
     
 4. **(Optional)Retrain your own model**: Customize `train.py` by adjusting the configuration settings:
 
