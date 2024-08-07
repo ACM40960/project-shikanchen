@@ -192,3 +192,13 @@ We also analyze the game outcomes in terms of wins, losses, and draws. The follo
 ### Analysis and Discussion
 
 The collected data demonstrate that while the AI significantly improves with initial training, there's a plateau effect in performance improvement. This is aligned with the the expectation in Blackjack, which, even with perfect play, is often below 50% due to the house edge.
+
+## Contributing
+
+We warmly welcome contributions from the community and are delighted to see interest in improving and expanding this Blackjack simulation project. Whether you have suggestions for features, code improvements, bug reports, or documentation updates, your input is highly appreciated!
+
+If you have any questions or wish to discuss before making changes, feel free to open an issue on the GitHub repository or contact your GitHub profile name directly through [my profile page](https://github.com/shikanchen).
+
+## License
+
+This project is licensed under the MIT License. Please read [LICENSE](LICENSE) for more details.
