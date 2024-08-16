@@ -86,6 +86,8 @@ Blackjack-Simulation/
 │   ├── main.py            # Entry point of the program
 │   └── train.py           # Training routines for the AI
 │
+├── Poster.png             # Final poster for Math Modeling (84.1 x 118.9 cm)
+├── Poster.pdf             # PDF version of final poster for Math Modeling (84.1 x 118.9 cm)
 ├── .gitignore             # Specifies intentionally untracked files to ignore
 ├── environment.yml        # Conda environment file
 ├── LICENSE                # License details
